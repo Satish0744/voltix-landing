@@ -10,6 +10,7 @@ import { features } from '../../data/content.js';
 import SectionHeading from '../common/SectionHeading.jsx';
 import Reveal from '../common/Reveal.jsx';
 import Container from '../common/Container.jsx';
+import Products from '../../pages/Products.jsx';
 
 const iconMap = { Zap, Cpu, Waves, ShieldCheck, Wifi, Sparkles };
 
@@ -43,6 +44,7 @@ export default function Features() {
             );
           })}
         </div>
+        <Products></Products>
       </Container>
     </section>
   );

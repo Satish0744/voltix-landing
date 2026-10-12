@@ -3,6 +3,7 @@ import { testimonials } from '../../data/content.js';
 import SectionHeading from '../common/SectionHeading.jsx';
 import Reveal from '../common/Reveal.jsx';
 import Container from '../common/Container.jsx';
+import Blog from '../../pages/Blog.jsx';
 
 export default function Testimonials() {
   return (
@@ -58,6 +59,7 @@ export default function Testimonials() {
             </Reveal>
           ))}
         </div>
+        <Blog></Blog>
       </Container>
     </section>
   );

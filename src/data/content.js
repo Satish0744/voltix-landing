@@ -1,12 +1,10 @@
 export const navLinks = [
-      { label: 'Products', href: '/products' },
-  { label: 'Blog', href: '/blog' },
-  { label: 'About', href: '/#about' },
-  { label: 'Contact', href: '/contact' },
+  { label: 'Home', href: '#home' },
+  { label: 'About', href: '#about' },
   { label: 'Features', href: '#features' },
+  { label: 'How it Works', href: '#how-it-works' },
   { label: 'Reviews', href: '#testimonials' },
   { label: 'Pricing', href: '#pricing' },
-
 ];
 
 export const features = [
